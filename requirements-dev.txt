@@ -1,0 +1,3 @@
+scikit-build>=0.13
+cmake
+ninja
