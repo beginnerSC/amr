@@ -7,7 +7,7 @@ setup(
     author="BeginnerSC",
     # license="MIT",
     packages=["amr"],
-    package_dir={"": ""},
-    cmake_install_dir="amr",
+    package_dir={"": "src"},
+    cmake_install_dir="src/amr",
     python_requires=">=3.7",
 )

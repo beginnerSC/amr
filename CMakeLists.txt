@@ -13,14 +13,14 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(pybind11)
 
 add_executable(amr 
-  amr/main.cpp 
-  amr/return_two.cpp
+  src/amr/main.cpp 
+  src/amr/return_two.cpp
 )
 
 set(python_module_name _amr)
 pybind11_add_module(${python_module_name} MODULE
-  amr/return_two.cpp
-  amr/amr_py.cpp
+  src/amr/return_two.cpp
+  src/amr/amr_py.cpp
 )
 
 install(TARGETS ${python_module_name} DESTINATION .)
