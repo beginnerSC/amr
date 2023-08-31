@@ -11,7 +11,8 @@
             "program": "${workspaceFolder}/build/amr",
             "initCommands":["settings set target.disable-aslr false"], 
             "args": [],
-            "cwd": "${workspaceFolder}"
+            "cwd": "${workspaceFolder}", 
+            "preLaunchTask": "CMake: build"
         }
     ]
 }

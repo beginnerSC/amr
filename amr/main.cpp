@@ -3,5 +3,5 @@
 
 int main(){
     int a = return_two();
-    return a;
+    return 0;
 }
