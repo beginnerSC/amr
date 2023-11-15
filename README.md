@@ -1,5 +1,10 @@
 # amr
 
+* Needed extensions: 
+    * Python 
+    * C/C++ 
+    * C/C++ Extension Pack
+    * CMake Tools
 * F1 > CMake: Configure to configure cmake, or just edit (optional) and save CMakeLists.txt
 * Set breakpoint in main.cpp and F5 to start debugging
 * `pip install .` to trigger scikit-build 
