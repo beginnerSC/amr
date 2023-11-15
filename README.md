@@ -1,5 +1,9 @@
 # amr
 
+* Needed extensions (need to try in a new gitpod workspace to see if these are enough): 
+    * Python
+    * CMake Tools
+    * C/C++ Extension Pack
 * F1 > CMake: Configure to configure cmake, or just edit (optional) and save CMakeLists.txt
 * Set breakpoint in main.cpp and F5 to start debugging
 * `pip install .` to trigger scikit-build 
